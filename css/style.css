@@ -1,0 +1,139 @@
+#header {
+  padding: 20px 0px;
+}
+
+#header .container .row .col-lg-1 img {
+  width: 90px;
+}
+
+#header .container .row .col-lg-8 ul {
+  text-align: center;
+}
+
+#header .container .row .col-lg-8 ul li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+#header .container .row .col-lg-8 ul li a {
+  text-decoration: none;
+  color: #26313c;
+  text-transform: capitalize;
+}
+
+#cart li {
+  display: inline-block;
+  margin-right: 70px;
+  position: relative;
+}
+
+#cart li a {
+  color: black;
+  text-decoration: none;
+}
+
+#cart li a .badge {
+  top: -10px !important;
+}
+
+#cart li .cart-content {
+  display: none;
+}
+
+#main #banner {
+  background-image: url(../img/bg-contact-header.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 130px 0px;
+  color: white;
+  text-align: center;
+}
+
+#main #banner h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+#main #banner h4 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+#products .card {
+  position: relative;
+}
+
+#products .card img {
+  max-height: 350px;
+}
+
+#products .card .icons {
+  position: absolute;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 15px;
+}
+
+#products .card .icons i {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#tab-menu .tab-menu-wrapper .tabs {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+#tab-menu .tab-menu-wrapper .tabs li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+#tab-menu .tab-menu-wrapper .content {
+  position: relative;
+}
+
+#tab-menu .tab-menu-wrapper .content .item {
+  padding: 15px;
+  -webkit-box-shadow: 0px 0px 25px -10px black;
+          box-shadow: 0px 0px 25px -10px black;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  -webkit-transition: all 0.7s linear;
+  transition: all 0.7s linear;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+#tab-menu .tab-menu-wrapper .content .item h1 {
+  font-size: 30px;
+}
+
+#tab-menu .tab-menu-wrapper .content .show {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 2000px;
+}
+/*# sourceMappingURL=style.css.map */
