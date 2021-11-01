@@ -24,7 +24,12 @@ for (let i = 0; i < favorite.length; i++) {
         }
 
         localStorage.setItem("favorites", newFavorite);
-        document.querySelector(".cart-favorite").textContent = localStorage.getItem("favorites").split(",").length;
+        if (localStorage.getItem("favorites") != "") {
+            document.querySelector(".cart-favorite").textContent = localStorage.getItem("favorites").split(",").length;
+        } else {
+            localStorage.removeItem("favorites");
+            document.querySelector(".cart-favorite").textContent = "";
+        }
     });
 }
 
